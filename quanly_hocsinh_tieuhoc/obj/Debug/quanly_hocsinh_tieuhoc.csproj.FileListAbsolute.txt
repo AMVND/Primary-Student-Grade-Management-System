@@ -1,0 +1,136 @@
+E:\Lam WINDOWS FORM\quanly_hocsinh_tieuhoc\quanly_hocsinh_tieuhoc\bin\Debug\quanly_hocsinh_tieuhoc.exe.config
+E:\Lam WINDOWS FORM\quanly_hocsinh_tieuhoc\quanly_hocsinh_tieuhoc\bin\Debug\quanly_hocsinh_tieuhoc.exe
+E:\Lam WINDOWS FORM\quanly_hocsinh_tieuhoc\quanly_hocsinh_tieuhoc\bin\Debug\quanly_hocsinh_tieuhoc.pdb
+E:\Lam WINDOWS FORM\quanly_hocsinh_tieuhoc\quanly_hocsinh_tieuhoc\obj\Debug\quanly_hocsinh_tieuhoc.csprojResolveAssemblyReference.cache
+E:\Lam WINDOWS FORM\quanly_hocsinh_tieuhoc\quanly_hocsinh_tieuhoc\obj\Debug\quanly_hocsinh_tieuhoc.login.resources
+E:\Lam WINDOWS FORM\quanly_hocsinh_tieuhoc\quanly_hocsinh_tieuhoc\obj\Debug\quanly_hocsinh_tieuhoc.Properties.Resources.resources
+E:\Lam WINDOWS FORM\quanly_hocsinh_tieuhoc\quanly_hocsinh_tieuhoc\obj\Debug\quanly_hocsinh_tieuhoc.quanlyhocsinh.resources
+E:\Lam WINDOWS FORM\quanly_hocsinh_tieuhoc\quanly_hocsinh_tieuhoc\obj\Debug\quanly_hocsinh_tieuhoc.csproj.GenerateResource.Cache
+E:\Lam WINDOWS FORM\quanly_hocsinh_tieuhoc\quanly_hocsinh_tieuhoc\obj\Debug\quanly_hocsinh_tieuhoc.exe
+E:\Lam WINDOWS FORM\quanly_hocsinh_tieuhoc\quanly_hocsinh_tieuhoc\obj\Debug\quanly_hocsinh_tieuhoc.pdb
+E:\Lam WINDOWS FORM\quanly_hocsinh_tieuhoc\quanly_hocsinh_tieuhoc\obj\Debug\quanly_hocsinh_tieuhoc.ds_hocsinh.resources
+E:\Lam WINDOWS FORM\quanly_hocsinh_tieuhoc\quanly_hocsinh_tieuhoc\obj\Debug\quanly_hocsinh_tieuhoc.ds_lop.resources
+E:\Lam WINDOWS FORM\quanly_hocsinh_tieuhoc\quanly_hocsinh_tieuhoc\obj\Debug\quanly_hocsinh_tieuhoc.ds_monhoc.resources
+E:\Lam WINDOWS FORM\quanly_hocsinh_tieuhoc\quanly_hocsinh_tieuhoc\obj\Debug\quanly_hocsinh_tieuhoc.timkiemhs.resources
+E:\Lam WINDOWS FORM\quanly_hocsinh_tieuhoc\quanly_hocsinh_tieuhoc\obj\Debug\quanly_hocsinh_tieuhoc.diemthi.resources
+E:\Lam WINDOWS FORM\quanly_hocsinh_tieuhoc\quanly_hocsinh_tieuhoc\obj\Debug\quanly_hocsinh_tieuhoc.namhoc.resources
+E:\Lam WINDOWS FORM\quanly_hocsinh_tieuhoc\quanly_hocsinh_tieuhoc\obj\Debug\quanly_hocsinh_tieuhoc.doimatkhau.resources
+E:\Lam WINDOWS FORM\quanly_hocsinh_tieuhoc\quanly_hocsinh_tieuhoc\obj\Debug\quanly_hocsinh_tieuhoc.csproj.ResolveComReference.cache
+E:\Lam WINDOWS FORM\quanly_hocsinh_tieuhoc\quanly_hocsinh_tieuhoc\obj\Debug\quanly_hocsinh_tieuhoc.nhapdiemthi.resources
+E:\Lam WINDOWS FORM\quanly_hocsinh_tieuhoc\quanly_hocsinh_tieuhoc\obj\Debug\quanly_hocsinh_tieuhoc.taikhoan.resources
+E:\Lam WINDOWS FORM\quanly_hocsinh_tieuhoc\quanly_hocsinh_tieuhoc\obj\Debug\quanly_hocsinh_tieuhoc.themtaikhoan.resources
+E:\Lam WINDOWS FORM\quanly_hocsinh_tieuhoc\quanly_hocsinh_tieuhoc\obj\Debug\quanly_hocsinh_tieuhoc.gioithieu.resources
+E:\Lam WINDOWS FORM\quanly_hocsinh_tieuhoc\quanly_hocsinh_tieuhoc\obj\Debug\quanly_hocsinh_tieuhoc.frmBaoCaoHS.resources
+E:\Lam WINDOWS FORM\quanly_hocsinh_tieuhoc\quanly_hocsinh_tieuhoc\obj\Debug\RdlCompile.cache
+E:\Lam WINDOWS FORM\quanly_hocsinh_tieuhoc\quanly_hocsinh_tieuhoc\obj\Debug\RdlCompile.compiled
+E:\Lam WINDOWS FORM\quanly_hocsinh_tieuhoc\quanly_hocsinh_tieuhoc\obj\Debug\quanly_hocsinh_tieuhoc.frmBaocaoDiem.resources
+E:\KLTN_DH9\thamkhao\quanly_hocsinh_tieuhoc\quanly_hocsinh_tieuhoc\obj\Debug\quanly_hocsinh_tieuhoc.csproj.AssemblyReference.cache
+E:\KLTN_DH9\thamkhao\quanly_hocsinh_tieuhoc\quanly_hocsinh_tieuhoc\obj\Debug\quanly_hocsinh_tieuhoc.csproj.SuggestedBindingRedirects.cache
+E:\KLTN_DH9\thamkhao\quanly_hocsinh_tieuhoc\quanly_hocsinh_tieuhoc\obj\Debug\quanly_hocsinh_tieuhoc.csproj.ResolveComReference.cache
+E:\KLTN_DH9\thamkhao\quanly_hocsinh_tieuhoc\quanly_hocsinh_tieuhoc\obj\Debug\quanly_hocsinh_tieuhoc.diemthi.resources
+E:\KLTN_DH9\thamkhao\quanly_hocsinh_tieuhoc\quanly_hocsinh_tieuhoc\obj\Debug\quanly_hocsinh_tieuhoc.doimatkhau.resources
+E:\KLTN_DH9\thamkhao\quanly_hocsinh_tieuhoc\quanly_hocsinh_tieuhoc\obj\Debug\quanly_hocsinh_tieuhoc.ds_hocsinh.resources
+E:\KLTN_DH9\thamkhao\quanly_hocsinh_tieuhoc\quanly_hocsinh_tieuhoc\obj\Debug\quanly_hocsinh_tieuhoc.ds_lop.resources
+E:\KLTN_DH9\thamkhao\quanly_hocsinh_tieuhoc\quanly_hocsinh_tieuhoc\obj\Debug\quanly_hocsinh_tieuhoc.ds_monhoc.resources
+E:\KLTN_DH9\thamkhao\quanly_hocsinh_tieuhoc\quanly_hocsinh_tieuhoc\obj\Debug\quanly_hocsinh_tieuhoc.login.resources
+E:\KLTN_DH9\thamkhao\quanly_hocsinh_tieuhoc\quanly_hocsinh_tieuhoc\obj\Debug\quanly_hocsinh_tieuhoc.namhoc.resources
+E:\KLTN_DH9\thamkhao\quanly_hocsinh_tieuhoc\quanly_hocsinh_tieuhoc\obj\Debug\quanly_hocsinh_tieuhoc.nhapdiemthi.resources
+E:\KLTN_DH9\thamkhao\quanly_hocsinh_tieuhoc\quanly_hocsinh_tieuhoc\obj\Debug\quanly_hocsinh_tieuhoc.Properties.Resources.resources
+E:\KLTN_DH9\thamkhao\quanly_hocsinh_tieuhoc\quanly_hocsinh_tieuhoc\obj\Debug\quanly_hocsinh_tieuhoc.taikhoan.resources
+E:\KLTN_DH9\thamkhao\quanly_hocsinh_tieuhoc\quanly_hocsinh_tieuhoc\obj\Debug\quanly_hocsinh_tieuhoc.themtaikhoan.resources
+E:\KLTN_DH9\thamkhao\quanly_hocsinh_tieuhoc\quanly_hocsinh_tieuhoc\obj\Debug\quanly_hocsinh_tieuhoc.timkiemhs.resources
+E:\KLTN_DH9\thamkhao\quanly_hocsinh_tieuhoc\quanly_hocsinh_tieuhoc\obj\Debug\quanly_hocsinh_tieuhoc.csproj.GenerateResource.cache
+E:\KLTN_DH9\thamkhao\quanly_hocsinh_tieuhoc\quanly_hocsinh_tieuhoc\obj\Debug\quanly_hocsinh_tieuhoc.csproj.CoreCompileInputs.cache
+E:\KLTN_DH9\thamkhao\quanly_hocsinh_tieuhoc\quanly_hocsinh_tieuhoc\obj\Debug\quanly_hocsinh_tieuhoc.exe
+E:\KLTN_DH9\thamkhao\quanly_hocsinh_tieuhoc\quanly_hocsinh_tieuhoc\obj\Debug\quanly_hocsinh_tieuhoc.pdb
+E:\KLTN_DH9\thamkhao\quanly_hocsinh_tieuhoc\quanly_hocsinh_tieuhoc\bin\Debug\quanly_hocsinh_tieuhoc.exe.config
+E:\KLTN_DH9\thamkhao\quanly_hocsinh_tieuhoc\quanly_hocsinh_tieuhoc\bin\Debug\quanly_hocsinh_tieuhoc.exe
+E:\KLTN_DH9\thamkhao\quanly_hocsinh_tieuhoc\quanly_hocsinh_tieuhoc\bin\Debug\quanly_hocsinh_tieuhoc.pdb
+E:\KLTN_DH9\thamkhao\quanly_hocsinh_tieuhoc\quanly_hocsinh_tieuhoc\bin\Debug\Microsoft.ReportViewer.Common.dll
+E:\KLTN_DH9\thamkhao\quanly_hocsinh_tieuhoc\quanly_hocsinh_tieuhoc\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.DLL
+E:\KLTN_DH9\thamkhao\quanly_hocsinh_tieuhoc\quanly_hocsinh_tieuhoc\bin\Debug\Microsoft.ReportViewer.WinForms.DLL
+E:\KLTN_DH9\thamkhao\quanly_hocsinh_tieuhoc\quanly_hocsinh_tieuhoc\bin\Debug\Microsoft.SqlServer.Types.dll
+E:\KLTN_DH9\thamkhao\quanly_hocsinh_tieuhoc\quanly_hocsinh_tieuhoc\obj\Debug\quanly_hocsinh_tieuhoc.csproj.CopyComplete
+E:\KLTN_DH9\thamkhao\quanly_hocsinh_tieuhoc\quanly_hocsinh_tieuhoc\obj\Debug\quanly_hocsinh_tieuhoc.frmMain.resources
+E:\KLTN_DH9\thamkhao\quanly_hocsinh_tieuhoc\quanly_hocsinh_tieuhoc\obj\Debug\quanly_hocsinh_tieuhoc.nanglucphamchat.resources
+E:\KLTN_DH9\thamkhao\quanly_hocsinh_tieuhoc\quanly_hocsinh_tieuhoc\obj\Debug\quanly_hocsinh_tieuhoc.nlpc.resources
+E:\KLTN_DH9\thamkhao\quanly_hocsinh_tieuhoc\quanly_hocsinh_tieuhoc\bin\Debug\ExcelDataReader.DataSet.dll
+E:\KLTN_DH9\thamkhao\quanly_hocsinh_tieuhoc\quanly_hocsinh_tieuhoc\bin\Debug\ExcelDataReader.dll
+E:\KLTN_DH9\thamkhao\quanly_hocsinh_tieuhoc\quanly_hocsinh_tieuhoc\bin\Debug\ExcelDataReader.pdb
+E:\KLTN_DH9\thamkhao\quanly_hocsinh_tieuhoc\quanly_hocsinh_tieuhoc\bin\Debug\ExcelDataReader.xml
+E:\KLTN_DH9\thamkhao\quanly_hocsinh_tieuhoc\quanly_hocsinh_tieuhoc\bin\Debug\ExcelDataReader.DataSet.pdb
+E:\KLTN_DH9\thamkhao\quanly_hocsinh_tieuhoc\quanly_hocsinh_tieuhoc\bin\Debug\ExcelDataReader.DataSet.xml
+E:\KLTN_DH9\thamkhao\quanly_hocsinh_tieuhoc\quanly_hocsinh_tieuhoc\bin\Debug\ClosedXML.dll
+E:\KLTN_DH9\thamkhao\quanly_hocsinh_tieuhoc\quanly_hocsinh_tieuhoc\bin\Debug\DocumentFormat.OpenXml.dll
+E:\KLTN_DH9\thamkhao\quanly_hocsinh_tieuhoc\quanly_hocsinh_tieuhoc\bin\Debug\ExcelNumberFormat.dll
+E:\KLTN_DH9\thamkhao\quanly_hocsinh_tieuhoc\quanly_hocsinh_tieuhoc\bin\Debug\OfficeOpenXml.Core.ExcelPackage.dll
+E:\KLTN_DH9\thamkhao\quanly_hocsinh_tieuhoc\quanly_hocsinh_tieuhoc\bin\Debug\System.IO.Packaging.dll
+E:\KLTN_DH9\thamkhao\quanly_hocsinh_tieuhoc\quanly_hocsinh_tieuhoc\bin\Debug\ClosedXML.pdb
+E:\KLTN_DH9\thamkhao\quanly_hocsinh_tieuhoc\quanly_hocsinh_tieuhoc\bin\Debug\ClosedXML.xml
+E:\KLTN_DH9\thamkhao\quanly_hocsinh_tieuhoc\quanly_hocsinh_tieuhoc\bin\Debug\DocumentFormat.OpenXml.xml
+E:\KLTN_DH9\thamkhao\quanly_hocsinh_tieuhoc\quanly_hocsinh_tieuhoc\bin\Debug\ExcelNumberFormat.xml
+E:\KLTN_DH9\thamkhao\quanly_hocsinh_tieuhoc\quanly_hocsinh_tieuhoc\bin\Debug\OfficeOpenXml.Core.ExcelPackage.pdb
+E:\KLTN_DH9\thamkhao\quanly_hocsinh_tieuhoc\quanly_hocsinh_tieuhoc\bin\Debug\LiveCharts.dll
+E:\KLTN_DH9\thamkhao\quanly_hocsinh_tieuhoc\quanly_hocsinh_tieuhoc\bin\Debug\LiveCharts.WinForms.dll
+E:\KLTN_DH9\thamkhao\quanly_hocsinh_tieuhoc\quanly_hocsinh_tieuhoc\bin\Debug\LiveCharts.Wpf.dll
+E:\KLTN_DH9\thamkhao\quanly_hocsinh_tieuhoc\quanly_hocsinh_tieuhoc\bin\Debug\LiveCharts.pdb
+E:\KLTN_DH9\thamkhao\quanly_hocsinh_tieuhoc\quanly_hocsinh_tieuhoc\bin\Debug\LiveCharts.xml
+E:\KLTN_DH9\thamkhao\quanly_hocsinh_tieuhoc\quanly_hocsinh_tieuhoc\bin\Debug\LiveCharts.WinForms.pdb
+E:\KLTN_DH9\thamkhao\quanly_hocsinh_tieuhoc\quanly_hocsinh_tieuhoc\bin\Debug\LiveCharts.WinForms.xml
+E:\KLTN_DH9\thamkhao\quanly_hocsinh_tieuhoc\quanly_hocsinh_tieuhoc\bin\Debug\LiveCharts.Wpf.pdb
+E:\KLTN_DH9\thamkhao\quanly_hocsinh_tieuhoc\quanly_hocsinh_tieuhoc\bin\Debug\LiveCharts.Wpf.xml
+E:\KLTN_DH9\thamkhao\quanly_hocsinh_tieuhoc\quanly_hocsinh_tieuhoc\bin\Debug\SqlServerTypes\x64\msvcr120.dll
+E:\KLTN_DH9\thamkhao\quanly_hocsinh_tieuhoc\quanly_hocsinh_tieuhoc\bin\Debug\SqlServerTypes\x64\SqlServerSpatial140.dll
+E:\KLTN_DH9\thamkhao\quanly_hocsinh_tieuhoc\quanly_hocsinh_tieuhoc\bin\Debug\SqlServerTypes\x86\msvcr120.dll
+E:\KLTN_DH9\thamkhao\quanly_hocsinh_tieuhoc\quanly_hocsinh_tieuhoc\bin\Debug\SqlServerTypes\x86\SqlServerSpatial140.dll
+E:\KLTN_DH9\thamkhao\quanly_hocsinh_tieuhoc\quanly_hocsinh_tieuhoc\bin\Debug\Microsoft.ReportViewer.DataVisualization.dll
+E:\KLTN_DH9\thamkhao\quanly_hocsinh_tieuhoc\quanly_hocsinh_tieuhoc\bin\Debug\Microsoft.ReportViewer.Design.dll
+E:\KLTN_DH9\thamkhao\quanly_hocsinh_tieuhoc\quanly_hocsinh_tieuhoc\bin\Debug\EnvDTE.dll
+E:\KLTN_DH9\thamkhao\quanly_hocsinh_tieuhoc\quanly_hocsinh_tieuhoc\bin\Debug\stdole.dll
+E:\KLTN_DH9\thamkhao\quanly_hocsinh_tieuhoc\quanly_hocsinh_tieuhoc\bin\Debug\de\Microsoft.ReportViewer.Common.resources.dll
+E:\KLTN_DH9\thamkhao\quanly_hocsinh_tieuhoc\quanly_hocsinh_tieuhoc\bin\Debug\es\Microsoft.ReportViewer.Common.resources.dll
+E:\KLTN_DH9\thamkhao\quanly_hocsinh_tieuhoc\quanly_hocsinh_tieuhoc\bin\Debug\fr\Microsoft.ReportViewer.Common.resources.dll
+E:\KLTN_DH9\thamkhao\quanly_hocsinh_tieuhoc\quanly_hocsinh_tieuhoc\bin\Debug\it\Microsoft.ReportViewer.Common.resources.dll
+E:\KLTN_DH9\thamkhao\quanly_hocsinh_tieuhoc\quanly_hocsinh_tieuhoc\bin\Debug\ja\Microsoft.ReportViewer.Common.resources.dll
+E:\KLTN_DH9\thamkhao\quanly_hocsinh_tieuhoc\quanly_hocsinh_tieuhoc\bin\Debug\ko\Microsoft.ReportViewer.Common.resources.dll
+E:\KLTN_DH9\thamkhao\quanly_hocsinh_tieuhoc\quanly_hocsinh_tieuhoc\bin\Debug\pt\Microsoft.ReportViewer.Common.resources.dll
+E:\KLTN_DH9\thamkhao\quanly_hocsinh_tieuhoc\quanly_hocsinh_tieuhoc\bin\Debug\ru\Microsoft.ReportViewer.Common.resources.dll
+E:\KLTN_DH9\thamkhao\quanly_hocsinh_tieuhoc\quanly_hocsinh_tieuhoc\bin\Debug\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
+E:\KLTN_DH9\thamkhao\quanly_hocsinh_tieuhoc\quanly_hocsinh_tieuhoc\bin\Debug\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
+E:\KLTN_DH9\thamkhao\quanly_hocsinh_tieuhoc\quanly_hocsinh_tieuhoc\bin\Debug\de\Microsoft.ReportViewer.DataVisualization.resources.dll
+E:\KLTN_DH9\thamkhao\quanly_hocsinh_tieuhoc\quanly_hocsinh_tieuhoc\bin\Debug\es\Microsoft.ReportViewer.DataVisualization.resources.dll
+E:\KLTN_DH9\thamkhao\quanly_hocsinh_tieuhoc\quanly_hocsinh_tieuhoc\bin\Debug\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
+E:\KLTN_DH9\thamkhao\quanly_hocsinh_tieuhoc\quanly_hocsinh_tieuhoc\bin\Debug\it\Microsoft.ReportViewer.DataVisualization.resources.dll
+E:\KLTN_DH9\thamkhao\quanly_hocsinh_tieuhoc\quanly_hocsinh_tieuhoc\bin\Debug\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
+E:\KLTN_DH9\thamkhao\quanly_hocsinh_tieuhoc\quanly_hocsinh_tieuhoc\bin\Debug\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
+E:\KLTN_DH9\thamkhao\quanly_hocsinh_tieuhoc\quanly_hocsinh_tieuhoc\bin\Debug\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
+E:\KLTN_DH9\thamkhao\quanly_hocsinh_tieuhoc\quanly_hocsinh_tieuhoc\bin\Debug\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
+E:\KLTN_DH9\thamkhao\quanly_hocsinh_tieuhoc\quanly_hocsinh_tieuhoc\bin\Debug\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
+E:\KLTN_DH9\thamkhao\quanly_hocsinh_tieuhoc\quanly_hocsinh_tieuhoc\bin\Debug\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
+E:\KLTN_DH9\thamkhao\quanly_hocsinh_tieuhoc\quanly_hocsinh_tieuhoc\bin\Debug\de\Microsoft.ReportViewer.Design.resources.dll
+E:\KLTN_DH9\thamkhao\quanly_hocsinh_tieuhoc\quanly_hocsinh_tieuhoc\bin\Debug\es\Microsoft.ReportViewer.Design.resources.dll
+E:\KLTN_DH9\thamkhao\quanly_hocsinh_tieuhoc\quanly_hocsinh_tieuhoc\bin\Debug\fr\Microsoft.ReportViewer.Design.resources.dll
+E:\KLTN_DH9\thamkhao\quanly_hocsinh_tieuhoc\quanly_hocsinh_tieuhoc\bin\Debug\it\Microsoft.ReportViewer.Design.resources.dll
+E:\KLTN_DH9\thamkhao\quanly_hocsinh_tieuhoc\quanly_hocsinh_tieuhoc\bin\Debug\ja\Microsoft.ReportViewer.Design.resources.dll
+E:\KLTN_DH9\thamkhao\quanly_hocsinh_tieuhoc\quanly_hocsinh_tieuhoc\bin\Debug\ko\Microsoft.ReportViewer.Design.resources.dll
+E:\KLTN_DH9\thamkhao\quanly_hocsinh_tieuhoc\quanly_hocsinh_tieuhoc\bin\Debug\pt\Microsoft.ReportViewer.Design.resources.dll
+E:\KLTN_DH9\thamkhao\quanly_hocsinh_tieuhoc\quanly_hocsinh_tieuhoc\bin\Debug\ru\Microsoft.ReportViewer.Design.resources.dll
+E:\KLTN_DH9\thamkhao\quanly_hocsinh_tieuhoc\quanly_hocsinh_tieuhoc\bin\Debug\zh-CHS\Microsoft.ReportViewer.Design.resources.dll
+E:\KLTN_DH9\thamkhao\quanly_hocsinh_tieuhoc\quanly_hocsinh_tieuhoc\bin\Debug\zh-CHT\Microsoft.ReportViewer.Design.resources.dll
+E:\KLTN_DH9\thamkhao\quanly_hocsinh_tieuhoc\quanly_hocsinh_tieuhoc\bin\Debug\de\Microsoft.ReportViewer.WinForms.resources.dll
+E:\KLTN_DH9\thamkhao\quanly_hocsinh_tieuhoc\quanly_hocsinh_tieuhoc\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
+E:\KLTN_DH9\thamkhao\quanly_hocsinh_tieuhoc\quanly_hocsinh_tieuhoc\bin\Debug\fr\Microsoft.ReportViewer.WinForms.resources.dll
+E:\KLTN_DH9\thamkhao\quanly_hocsinh_tieuhoc\quanly_hocsinh_tieuhoc\bin\Debug\it\Microsoft.ReportViewer.WinForms.resources.dll
+E:\KLTN_DH9\thamkhao\quanly_hocsinh_tieuhoc\quanly_hocsinh_tieuhoc\bin\Debug\ja\Microsoft.ReportViewer.WinForms.resources.dll
+E:\KLTN_DH9\thamkhao\quanly_hocsinh_tieuhoc\quanly_hocsinh_tieuhoc\bin\Debug\ko\Microsoft.ReportViewer.WinForms.resources.dll
+E:\KLTN_DH9\thamkhao\quanly_hocsinh_tieuhoc\quanly_hocsinh_tieuhoc\bin\Debug\pt\Microsoft.ReportViewer.WinForms.resources.dll
+E:\KLTN_DH9\thamkhao\quanly_hocsinh_tieuhoc\quanly_hocsinh_tieuhoc\bin\Debug\ru\Microsoft.ReportViewer.WinForms.resources.dll
+E:\KLTN_DH9\thamkhao\quanly_hocsinh_tieuhoc\quanly_hocsinh_tieuhoc\bin\Debug\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+E:\KLTN_DH9\thamkhao\quanly_hocsinh_tieuhoc\quanly_hocsinh_tieuhoc\bin\Debug\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+E:\KLTN_DH9\thamkhao\quanly_hocsinh_tieuhoc\quanly_hocsinh_tieuhoc\obj\Debug\quanly_hocsinh_tieuhoc.frmBC_Diem.resources
+E:\KLTN_DH9\thamkhao\quanly_hocsinh_tieuhoc\quanly_hocsinh_tieuhoc\obj\Debug\quanly_hocsinh_tieuhoc.frmBC_HS.resources
+E:\KLTN_DH9\thamkhao\quanly_hocsinh_tieuhoc\quanly_hocsinh_tieuhoc\obj\Debug\quanly_hocsinh_tieuhoc.frmHocBa.resources
+E:\KLTN_DH9\thamkhao\quanly_hocsinh_tieuhoc\quanly_hocsinh_tieuhoc\bin\Debug\rpBC_HS.rdlc
+E:\KLTN_DH9\thamkhao\quanly_hocsinh_tieuhoc\quanly_hocsinh_tieuhoc\bin\Debug\rpBC_Diem.rdlc
+E:\KLTN_DH9\thamkhao\quanly_hocsinh_tieuhoc\quanly_hocsinh_tieuhoc\obj\Debug\quanly_hocsinh_tieuhoc.frmXuatDiem.resources
+E:\KLTN_DH9\thamkhao\quanly_hocsinh_tieuhoc\quanly_hocsinh_tieuhoc\obj\Debug\quanly_hocsinh_tieuhoc.frmXuatNLPC.resources
