@@ -46,6 +46,7 @@
             this.btnThongTinNH = new System.Windows.Forms.Button();
             this.btnThongTin = new System.Windows.Forms.Button();
             this.panelBaoCao = new System.Windows.Forms.Panel();
+            this.btnBCNLPC = new System.Windows.Forms.Button();
             this.btnBaoCaoTK = new System.Windows.Forms.Button();
             this.btnBaoCaoDiem = new System.Windows.Forms.Button();
             this.btnBaoCaoTTHS = new System.Windows.Forms.Button();
@@ -314,17 +315,37 @@
             // panelBaoCao
             // 
             this.panelBaoCao.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(32)))), ((int)(((byte)(39)))));
+            this.panelBaoCao.Controls.Add(this.btnBCNLPC);
             this.panelBaoCao.Controls.Add(this.btnBaoCaoTK);
             this.panelBaoCao.Controls.Add(this.btnBaoCaoDiem);
             this.panelBaoCao.Controls.Add(this.btnBaoCaoTTHS);
             this.panelBaoCao.Controls.Add(this.btnBaoCao);
             this.panelBaoCao.Location = new System.Drawing.Point(0, 185);
             this.panelBaoCao.Margin = new System.Windows.Forms.Padding(0, 5, 0, 0);
-            this.panelBaoCao.MaximumSize = new System.Drawing.Size(253, 175);
+            this.panelBaoCao.MaximumSize = new System.Drawing.Size(253, 215);
             this.panelBaoCao.MinimumSize = new System.Drawing.Size(253, 45);
             this.panelBaoCao.Name = "panelBaoCao";
             this.panelBaoCao.Size = new System.Drawing.Size(253, 45);
             this.panelBaoCao.TabIndex = 4;
+            // 
+            // btnBCNLPC
+            // 
+            this.btnBCNLPC.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(32)))), ((int)(((byte)(39)))));
+            this.btnBCNLPC.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.btnBCNLPC.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnBCNLPC.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.btnBCNLPC.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnBCNLPC.Font = new System.Drawing.Font("Tahoma", 10F, System.Drawing.FontStyle.Bold);
+            this.btnBCNLPC.ForeColor = System.Drawing.Color.White;
+            this.btnBCNLPC.Location = new System.Drawing.Point(0, 133);
+            this.btnBCNLPC.Margin = new System.Windows.Forms.Padding(0);
+            this.btnBCNLPC.Name = "btnBCNLPC";
+            this.btnBCNLPC.Size = new System.Drawing.Size(253, 34);
+            this.btnBCNLPC.TabIndex = 4;
+            this.btnBCNLPC.Text = "           Báo cáo NLPC";
+            this.btnBCNLPC.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnBCNLPC.UseVisualStyleBackColor = false;
+            this.btnBCNLPC.Click += new System.EventHandler(this.btnBCNLPC_Click);
             // 
             // btnBaoCaoTK
             // 
@@ -335,7 +356,7 @@
             this.btnBaoCaoTK.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnBaoCaoTK.Font = new System.Drawing.Font("Tahoma", 10F, System.Drawing.FontStyle.Bold);
             this.btnBaoCaoTK.ForeColor = System.Drawing.Color.White;
-            this.btnBaoCaoTK.Location = new System.Drawing.Point(0, 133);
+            this.btnBaoCaoTK.Location = new System.Drawing.Point(0, 174);
             this.btnBaoCaoTK.Margin = new System.Windows.Forms.Padding(0);
             this.btnBaoCaoTK.Name = "btnBaoCaoTK";
             this.btnBaoCaoTK.Size = new System.Drawing.Size(253, 34);
@@ -482,7 +503,7 @@
             this.panel2.Location = new System.Drawing.Point(0, 280);
             this.panel2.Margin = new System.Windows.Forms.Padding(0);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(250, 10);
+            this.panel2.Size = new System.Drawing.Size(250, 5);
             this.panel2.TabIndex = 0;
             // 
             // btnDangXuat
@@ -496,7 +517,7 @@
             this.btnDangXuat.ForeColor = System.Drawing.Color.White;
             this.btnDangXuat.Image = ((System.Drawing.Image)(resources.GetObject("btnDangXuat.Image")));
             this.btnDangXuat.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnDangXuat.Location = new System.Drawing.Point(0, 290);
+            this.btnDangXuat.Location = new System.Drawing.Point(0, 285);
             this.btnDangXuat.Margin = new System.Windows.Forms.Padding(0);
             this.btnDangXuat.Name = "btnDangXuat";
             this.btnDangXuat.Size = new System.Drawing.Size(253, 44);
@@ -594,5 +615,6 @@
         private System.Windows.Forms.Button btnDangXuat;
         private System.Windows.Forms.Label lbl2;
         private System.Windows.Forms.Label lbl1;
+        private System.Windows.Forms.Button btnBCNLPC;
     }
 }

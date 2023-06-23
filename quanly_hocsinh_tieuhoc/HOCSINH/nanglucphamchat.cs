@@ -8,6 +8,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Excel = Microsoft.Office.Interop.Excel;
 
 namespace quanly_hocsinh_tieuhoc
 {
@@ -140,7 +141,7 @@ namespace quanly_hocsinh_tieuhoc
         {
             int r = dtgvNhapdiem.CurrentCell.RowIndex;
             string ID = dtgvNhapdiem.Rows[r].Cells[0].Value.ToString();
-            string UpdateNhapdiem = "UPDATE NLPC set ma_diem_nlpc= N'" + txtMadiem.Text + "',ten_lop=N'" + txtTenlop.Text + "',ma_hoc_sinh=N'" + txtMahocsinh.Text + "',ho_ten=N'" + txtHoten.Text + "',ma_mon_hoc=N'" + cbMonHoc.Text + "',mon_hoc=N'" + txtMonhoc.Text + "',nam_hoc=N'" + cbNamHoc.Text + "',diem_hk1='" + txtDiem1.Text + "',diem_hk2='" + txtDiem2.Text + "',diem_cuoi_ki='" + txtDiemtb.Text + "' WHERE ma_diem_nlpc='" + ID + "'";
+            string UpdateNhapdiem = "UPDATE NLPC set ten_lop=N'" + txtTenlop.Text + "',ma_hoc_sinh=N'" + txtMahocsinh.Text + "',ho_ten=N'" + txtHoten.Text + "',ma_mon_hoc=N'" + cbMonHoc.Text + "',mon_hoc=N'" + txtMonhoc.Text + "',nam_hoc=N'" + cbNamHoc.Text + "',diem_hk1='" + txtDiem1.Text + "',diem_hk2='" + txtDiem2.Text + "',diem_cuoi_ki='" + txtDiemtb.Text + "' WHERE ma_diem_nlpc='" + ID + "'";
             try
             {
                 DatabaseService.DatabaseService.executeQuery(UpdateNhapdiem);
@@ -248,6 +249,17 @@ namespace quanly_hocsinh_tieuhoc
             }
         }
 
+        private void btnNhapExcel_Click(object sender, EventArgs e)
+        {
+            OpenFileDialog openFileDialog = new OpenFileDialog();
+            openFileDialog.Filter = "Excel Files (*.xlsx)|*.xlsx|All Files (*.*)|*.*";
+            if (openFileDialog.ShowDialog() == DialogResult.OK)
+            {
+                string filePath = openFileDialog.FileName;
+                ImportExcelToSQLServer(filePath);
+            }
+        }
+
         private void txtDiem2_SelectedIndexChanged(object sender, EventArgs e)
         {
             txtDiemtb.Text = txtDiem2.Text;
@@ -255,8 +267,101 @@ namespace quanly_hocsinh_tieuhoc
 
         private void btnXuatExcel_Click(object sender, EventArgs e)
         {
-            frmXuatNLPC xd = new frmXuatNLPC(monhoc, lophoc);
+            frmXuatNLPC xd = new frmXuatNLPC(monhoc, lophoc,phan_quyen);
             xd.Show();
         }
+
+        private void ImportExcelToSQLServer(string filePath)
+        {
+            string connectionString = "Data Source=DESKTOP-44NFGRQ;Initial Catalog=QLHSTH;Integrated Security=True";
+
+            using (SqlConnection connection = new SqlConnection(connectionString))
+            {
+                connection.Open();
+
+                // Import data from Excel to the SQL Server table
+                Excel.Application excelApp = new Excel.Application();
+                Excel.Workbook workbook = excelApp.Workbooks.Open(filePath);
+                Excel.Worksheet worksheet = workbook.Sheets[1]; // Assuming the data is in the first worksheet
+
+                int rowCount = worksheet.UsedRange.Rows.Count;
+                int colCount = worksheet.UsedRange.Columns.Count;
+
+                for (int row = 3; row <= rowCount; row++) // Assuming the data starts from the second row
+                {
+                    string column1Value = worksheet.Cells[row, 1].Value.ToString();
+                    string column2Value = worksheet.Cells[row, 2].Value.ToString();
+                    string column3Value = worksheet.Cells[row, 3].Value.ToString();
+                    string column4Value = worksheet.Cells[row, 4].Value.ToString();
+                    string column5Value = worksheet.Cells[row, 5].Value.ToString();
+                    string column6Value = worksheet.Cells[row, 6].Value.ToString();
+                    string column7Value = worksheet.Cells[row, 7].Value.ToString();
+                    string column8Value = worksheet.Cells[row, 8].Value.ToString();
+                    string column9Value = worksheet.Cells[row, 9].Value.ToString();
+                    string column10Value = worksheet.Cells[row, 10].Value.ToString();
+
+
+                    string selectQuery = $"SELECT COUNT(*) FROM NLPC WHERE ma_diem_nlpc = @ma_diem_nlpc";
+
+                    SqlCommand selectCommand = new SqlCommand(selectQuery, connection);
+                    selectCommand.Parameters.AddWithValue("@ma_diem_nlpc", column1Value);
+
+                    int count = Convert.ToInt32(selectCommand.ExecuteScalar());
+
+                    if (count > 0)
+                    {
+                        // Data already exists, perform update
+                        string updateQuery = $"UPDATE NLPC SET ten_lop = @ten_lop, ma_hoc_sinh = @ma_hoc_sinh , ho_ten=@ho_ten," +
+                            $"ma_mon_hoc =@ma_mon_hoc, mon_hoc =@mon_hoc, nam_hoc =@nam_hoc ,diem_hk1 =@diem_hk1, diem_hk2=@diem_hk2, diem_cuoi_ki=@diem_cuoi_ki WHERE ma_diem_nlpc = @ma_diem_nlpc"; // Replace with your table name and column names
+
+                        SqlCommand updateCommand = new SqlCommand(updateQuery, connection);
+                        updateCommand.Parameters.AddWithValue("@ma_diem_nlpc", column1Value);
+                        updateCommand.Parameters.AddWithValue("@ten_lop", column2Value);
+                        updateCommand.Parameters.AddWithValue("@ma_hoc_sinh", column3Value);
+                        updateCommand.Parameters.AddWithValue("@ho_ten", column4Value);
+                        updateCommand.Parameters.AddWithValue("@ma_mon_hoc", column5Value);
+                        updateCommand.Parameters.AddWithValue("@mon_hoc", column6Value);
+                        updateCommand.Parameters.AddWithValue("@nam_hoc", column7Value);
+                        updateCommand.Parameters.AddWithValue("@diem_hk1", column8Value);
+                        updateCommand.Parameters.AddWithValue("@diem_hk2", column9Value);
+                        updateCommand.Parameters.AddWithValue("@diem_cuoi_ki", column10Value);
+
+                        updateCommand.ExecuteNonQuery();
+                    }
+                    else
+                    {
+                        // Data doesn't exist, perform insert
+                        string insertQuery = $"INSERT INTO NLPC ( ten_lop,ma_hoc_sinh,ho_ten,ma_mon_hoc, mon_hoc," +
+                            $" nam_hoc, diem_hk1, diem_hk2, diem_cuoi_ki) VALUES ( @ten_lop, @ma_hoc_sinh, @ho_ten, @ma_mon_hoc, @mon_hoc" +
+                            $",@nam_hoc,@diem_hk1,@diem_hk2,@diem_cuoi_ki )";
+
+                        SqlCommand insertCommand = new SqlCommand(insertQuery, connection);
+                        insertCommand.Parameters.AddWithValue("@ma_diem_nlpc", column1Value);
+                        insertCommand.Parameters.AddWithValue("@ten_lop", column2Value);
+                        insertCommand.Parameters.AddWithValue("@ma_hoc_sinh", column3Value);
+                        insertCommand.Parameters.AddWithValue("@ho_ten", column4Value);
+                        insertCommand.Parameters.AddWithValue("@ma_mon_hoc", column5Value);
+                        insertCommand.Parameters.AddWithValue("@mon_hoc", column6Value);
+                        insertCommand.Parameters.AddWithValue("@nam_hoc", column7Value);
+                        insertCommand.Parameters.AddWithValue("@diem_hk1", column8Value);
+                        insertCommand.Parameters.AddWithValue("@diem_hk2", column9Value);
+                        insertCommand.Parameters.AddWithValue("@diem_cuoi_ki", column10Value);
+
+                        insertCommand.ExecuteNonQuery();
+                    }
+                }
+
+                // Clean up Excel objects
+                workbook.Close();
+                excelApp.Quit();
+                System.Runtime.InteropServices.Marshal.ReleaseComObject(worksheet);
+                System.Runtime.InteropServices.Marshal.ReleaseComObject(workbook);
+                System.Runtime.InteropServices.Marshal.ReleaseComObject(excelApp);
+
+                connection.Close();
+            }
+        }
+
+
     }
 }

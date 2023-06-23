@@ -37,7 +37,7 @@ namespace quanly_hocsinh_tieuhoc
                 {
                     //MessageBox.Show("Đăng nhập thành công!", "Thông báo");
                     this.Hide();
-                    Form main = new frmMain(dt.Rows[0][0].ToString(), dt.Rows[0][1].ToString(), dt.Rows[0][2].ToString());
+                    Form main = new frmMain(dt.Rows[0][0].ToString(), dt.Rows[0][1].ToString(), dt.Rows[0][2].ToString(), dt.Rows[0][3].ToString());
                     main.Show();
                 }
 

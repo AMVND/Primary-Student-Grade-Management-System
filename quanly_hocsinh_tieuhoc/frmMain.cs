@@ -12,19 +12,20 @@ namespace quanly_hocsinh_tieuhoc
 {
     public partial class frmMain : Form
     {
-        string user_id = "", password = "", phan_quyen = "";
+        string user_id = "", password = "", phan_quyen = "", ma_lop="";
         private bool isCollapse;
         public frmMain()
         {
             InitializeComponent();
         }
 
-        public frmMain(string user_id, string password, string phan_quyen)
+        public frmMain(string user_id, string password, string phan_quyen, string ma_lop)
         {
             InitializeComponent();
             this.user_id = user_id;
             this.password = password;
             this.phan_quyen = phan_quyen;
+            this.ma_lop = ma_lop;
         }
 
         private Form activeForm = null;
@@ -73,10 +74,10 @@ namespace quanly_hocsinh_tieuhoc
         {
             try
             {
-                DataTable dt = DatabaseService.DatabaseService.getDataTable("Select * from TAI_KHOAN");
+                DataTable dt = DatabaseService.DatabaseService.getDataTable("Select * from TAI_KHOAN WHERE phan_quyen = '"+phan_quyen.ToString()+"'");
                 {
-                    Form main = new ds_hocsinh(dt.Rows[0][0].ToString(), dt.Rows[0][1].ToString(), dt.Rows[0][2].ToString(), dt.Rows[0][3].ToString());
-                    openChildForm(main);
+                    Form dshocsinh = new ds_hocsinh(dt.Rows[0][0].ToString(), dt.Rows[0][1].ToString(), dt.Rows[0][2].ToString(), dt.Rows[0][3].ToString());
+                    openChildForm(dshocsinh);
                 }
             }
             catch (Exception) { }
@@ -87,8 +88,8 @@ namespace quanly_hocsinh_tieuhoc
             {
                 DataTable dt = DatabaseService.DatabaseService.getDataTable("Select * from TAI_KHOAN");
                 {
-                    Form main = new nhapdiemthi(dt.Rows[0][0].ToString(), dt.Rows[0][1].ToString(), dt.Rows[0][2].ToString());
-                    openChildForm(main);
+                    Form nhapdiem = new nhapdiemthi(dt.Rows[0][0].ToString(), dt.Rows[0][1].ToString(), dt.Rows[0][2].ToString(), dt.Rows[0][3].ToString());
+                    openChildForm(nhapdiem);
                 }
             }
             catch (Exception) { }
@@ -99,8 +100,8 @@ namespace quanly_hocsinh_tieuhoc
             {
                 DataTable dt = DatabaseService.DatabaseService.getDataTable("Select * from TAI_KHOAN");
                 {
-                    Form main = new nanglucphamchat(dt.Rows[0][0].ToString(), dt.Rows[0][1].ToString(), dt.Rows[0][2].ToString());
-                    openChildForm(main);
+                    Form nhapnlpc = new nanglucphamchat(dt.Rows[0][0].ToString(), dt.Rows[0][1].ToString(), dt.Rows[0][2].ToString());
+                    openChildForm(nhapnlpc);
                 }
             }
             catch (Exception) { }
@@ -194,6 +195,19 @@ namespace quanly_hocsinh_tieuhoc
                 {
                     Form BCDiem = new frmBC_Diem(dt.Rows[0][0].ToString(), dt.Rows[0][1].ToString(), dt.Rows[0][2].ToString());
                     openChildForm(BCDiem);
+                }
+            }
+            catch (Exception) { }
+        }
+
+        private void btnBCNLPC_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                DataTable dt = DatabaseService.DatabaseService.getDataTable("Select * from TAI_KHOAN");
+                {
+                    Form BCnlpc = new frmBC_NLPC(dt.Rows[0][0].ToString(), dt.Rows[0][1].ToString(), dt.Rows[0][2].ToString());
+                    openChildForm(BCnlpc);
                 }
             }
             catch (Exception) { }

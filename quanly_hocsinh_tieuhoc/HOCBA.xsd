@@ -1,0 +1,151 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="HOCBA" targetNamespace="http://tempuri.org/HOCBA.xsd" xmlns:mstns="http://tempuri.org/HOCBA.xsd" xmlns="http://tempuri.org/HOCBA.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="QLHSTHConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="QLHSTHConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.quanly_hocsinh_tieuhoc.Properties.Settings.GlobalReference.Default.QLHSTHConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="diembangsoTableAdapter" GeneratorDataComponentClassName="diembangsoTableAdapter" Name="diembangso" UserDataComponentName="diembangsoTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="QLHSTHConnectionString (Settings)" DbObjectName="QLHSTH.dbo.diembangso" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT ma_hoc_sinh, ho_ten, ten_lop, mon_hoc, diem_tb FROM dbo.diembangso</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="ma_hoc_sinh" DataSetColumn="ma_hoc_sinh" />
+              <Mapping SourceColumn="ho_ten" DataSetColumn="ho_ten" />
+              <Mapping SourceColumn="ten_lop" DataSetColumn="ten_lop" />
+              <Mapping SourceColumn="mon_hoc" DataSetColumn="mon_hoc" />
+              <Mapping SourceColumn="diem_tb" DataSetColumn="diem_tb" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="diemnlpcTableAdapter" GeneratorDataComponentClassName="diemnlpcTableAdapter" Name="diemnlpc" UserDataComponentName="diemnlpcTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="QLHSTHConnectionString (Settings)" DbObjectName="QLHSTH.dbo.diemnlpc" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT ma_hoc_sinh, ho_ten, ten_lop, mon_hoc, diem_cuoi_ki FROM dbo.diemnlpc</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="ma_hoc_sinh" DataSetColumn="ma_hoc_sinh" />
+              <Mapping SourceColumn="ho_ten" DataSetColumn="ho_ten" />
+              <Mapping SourceColumn="ten_lop" DataSetColumn="ten_lop" />
+              <Mapping SourceColumn="mon_hoc" DataSetColumn="mon_hoc" />
+              <Mapping SourceColumn="diem_cuoi_ki" DataSetColumn="diem_cuoi_ki" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="HOCBA" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="HOCBA" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="HOCBA">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="diembangso" msprop:Generator_RowClassName="diembangsoRow" msprop:Generator_RowEvHandlerName="diembangsoRowChangeEventHandler" msprop:Generator_RowDeletedName="diembangsoRowDeleted" msprop:Generator_RowDeletingName="diembangsoRowDeleting" msprop:Generator_RowEvArgName="diembangsoRowChangeEvent" msprop:Generator_TablePropName="diembangso" msprop:Generator_RowChangedName="diembangsoRowChanged" msprop:Generator_UserTableName="diembangso" msprop:Generator_RowChangingName="diembangsoRowChanging" msprop:Generator_TableClassName="diembangsoDataTable" msprop:Generator_TableVarName="tablediembangso">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ma_hoc_sinh" msprop:Generator_UserColumnName="ma_hoc_sinh" msprop:Generator_ColumnPropNameInTable="ma_hoc_sinhColumn" msprop:Generator_ColumnPropNameInRow="ma_hoc_sinh" msprop:Generator_ColumnVarNameInTable="columnma_hoc_sinh">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ho_ten" msprop:Generator_UserColumnName="ho_ten" msprop:Generator_ColumnPropNameInTable="ho_tenColumn" msprop:Generator_ColumnPropNameInRow="ho_ten" msprop:Generator_ColumnVarNameInTable="columnho_ten" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ten_lop" msprop:Generator_UserColumnName="ten_lop" msprop:Generator_ColumnPropNameInTable="ten_lopColumn" msprop:Generator_ColumnPropNameInRow="ten_lop" msprop:Generator_ColumnVarNameInTable="columnten_lop" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="mon_hoc" msprop:Generator_UserColumnName="mon_hoc" msprop:Generator_ColumnPropNameInTable="mon_hocColumn" msprop:Generator_ColumnPropNameInRow="mon_hoc" msprop:Generator_ColumnVarNameInTable="columnmon_hoc" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="diem_tb" msprop:Generator_UserColumnName="diem_tb" msprop:Generator_ColumnPropNameInTable="diem_tbColumn" msprop:Generator_ColumnPropNameInRow="diem_tb" msprop:Generator_ColumnVarNameInTable="columndiem_tb" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="diemnlpc" msprop:Generator_RowClassName="diemnlpcRow" msprop:Generator_RowEvHandlerName="diemnlpcRowChangeEventHandler" msprop:Generator_RowDeletedName="diemnlpcRowDeleted" msprop:Generator_RowDeletingName="diemnlpcRowDeleting" msprop:Generator_RowEvArgName="diemnlpcRowChangeEvent" msprop:Generator_TablePropName="diemnlpc" msprop:Generator_RowChangedName="diemnlpcRowChanged" msprop:Generator_UserTableName="diemnlpc" msprop:Generator_RowChangingName="diemnlpcRowChanging" msprop:Generator_TableClassName="diemnlpcDataTable" msprop:Generator_TableVarName="tablediemnlpc">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ma_hoc_sinh" msprop:Generator_UserColumnName="ma_hoc_sinh" msprop:Generator_ColumnPropNameInTable="ma_hoc_sinhColumn" msprop:Generator_ColumnPropNameInRow="ma_hoc_sinh" msprop:Generator_ColumnVarNameInTable="columnma_hoc_sinh">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ho_ten" msprop:Generator_UserColumnName="ho_ten" msprop:Generator_ColumnPropNameInTable="ho_tenColumn" msprop:Generator_ColumnPropNameInRow="ho_ten" msprop:Generator_ColumnVarNameInTable="columnho_ten" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ten_lop" msprop:Generator_UserColumnName="ten_lop" msprop:Generator_ColumnPropNameInTable="ten_lopColumn" msprop:Generator_ColumnPropNameInRow="ten_lop" msprop:Generator_ColumnVarNameInTable="columnten_lop" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="mon_hoc" msprop:Generator_UserColumnName="mon_hoc" msprop:Generator_ColumnPropNameInTable="mon_hocColumn" msprop:Generator_ColumnPropNameInRow="mon_hoc" msprop:Generator_ColumnVarNameInTable="columnmon_hoc" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="diem_cuoi_ki" msprop:Generator_UserColumnName="diem_cuoi_ki" msprop:Generator_ColumnPropNameInTable="diem_cuoi_kiColumn" msprop:Generator_ColumnPropNameInRow="diem_cuoi_ki" msprop:Generator_ColumnVarNameInTable="columndiem_cuoi_ki" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:diembangso" />
+      <xs:field xpath="mstns:ma_hoc_sinh" />
+    </xs:unique>
+    <xs:unique name="diemnlpc_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:diemnlpc" />
+      <xs:field xpath="mstns:ma_hoc_sinh" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

@@ -28,7 +28,7 @@ namespace DatabaseService
             }
             catch
             {
-                MessageBox.Show("Lỗi", "Không thể thực thi câu lệnh SQL này!");
+                MessageBox.Show("Không thể thực thi", "Lỗi",MessageBoxButtons.OK,MessageBoxIcon.Warning);
             }
         }
 
@@ -46,7 +46,7 @@ namespace DatabaseService
             }
             catch
             {
-                MessageBox.Show("Lỗi!", "Không thể thực thi câu lệnh SQL này!");
+                MessageBox.Show("Không thể thực thi", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
 
         }

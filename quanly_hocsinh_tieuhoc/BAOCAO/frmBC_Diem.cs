@@ -41,36 +41,50 @@ namespace quanly_hocsinh_tieuhoc
             cbLop.DisplayMember = "ma_lop";
             cbLop.ValueMember = "ma_lop";
             ////
+            System.Data.DataTable cbmon = DatabaseService.DatabaseService.getDataTable("select * from DS_MONHOC WHERE loai_mon_hoc = N'Văn hóa' OR loai_mon_hoc = N'Đánh giá'");
+            cbMonHoc.DataSource = cbmon;
+            cbMonHoc.DisplayMember = "mon_hoc";
+            cbMonHoc.ValueMember = "ma_mon_hoc";
+            ////
+          
             this.rpvBaoCao.RefreshReport();
         }
 
         private void btnBaoCao_Click(object sender, EventArgs e)
         {
-            String sql = "Select * from DIEM_THI WHERE ten_lop='"+cbLop.Text+"'";
-            SqlConnection con = new SqlConnection();
-            con.ConnectionString = @"Data Source=.;Initial Catalog=QLHSTH;Integrated Security=True";
-            SqlDataAdapter adp = new SqlDataAdapter(sql, con);
-            DataSet ds = new DataSet();
-            adp.Fill(ds);
-            rpvBaoCao.ProcessingMode = Microsoft.Reporting.WinForms.ProcessingMode.Local;
-
-            rpvBaoCao.LocalReport.ReportPath = "rpBC_Diem.rdlc";
-
-            if (ds.Tables[0].Rows.Count > 0)
+            if (cbMonHoc.SelectedIndex > -1)
             {
+                
+                String sql = "Select * from DIEM_THI WHERE ten_lop='" + cbLop.Text + "' AND mon_hoc = N'"+cbMonHoc.Text+"'";
+                SqlConnection con = new SqlConnection();
+                con.ConnectionString = @"Data Source=.;Initial Catalog=QLHSTH;Integrated Security=True";
+                SqlDataAdapter adp = new SqlDataAdapter(sql, con);
+                DataSet ds = new DataSet();
+                adp.Fill(ds);
+                rpvBaoCao.ProcessingMode = Microsoft.Reporting.WinForms.ProcessingMode.Local;
 
-                ReportDataSource rds = new ReportDataSource();
-                rds.Name = "DIEM";
-                rds.Value = ds.Tables[0];
-                rpvBaoCao.LocalReport.DataSources.Clear();
-                rpvBaoCao.LocalReport.DataSources.Add(rds);
+                rpvBaoCao.LocalReport.ReportPath = "rpBC_Diem.rdlc";
 
-               
-                ReportParameterCollection nameParameters = new ReportParameterCollection();
-                nameParameters.Add(new ReportParameter("nameGVCN", txtGVCN.Text));
-                this.rpvBaoCao.LocalReport.SetParameters(nameParameters);
-                rpvBaoCao.RefreshReport();
+                if (ds.Tables[0].Rows.Count > 0)
+                {
+
+                    ReportDataSource rds = new ReportDataSource();
+                    rds.Name = "DIEM";
+                    rds.Value = ds.Tables[0];
+                    rpvBaoCao.LocalReport.DataSources.Clear();
+                    rpvBaoCao.LocalReport.DataSources.Add(rds);
+
+
+                    ReportParameterCollection nameParameters = new ReportParameterCollection();
+                    nameParameters.Add(new ReportParameter("nameGVCN", txtGVCN.Text));
+                    this.rpvBaoCao.LocalReport.SetParameters(nameParameters);
+                    rpvBaoCao.RefreshReport();
+                } else
+                {
+                    MessageBox.Show("Không có thông tin để hiển thị", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                }
             }
+
         }
 
         private void cbLop_SelectedIndexChanged(object sender, EventArgs e)

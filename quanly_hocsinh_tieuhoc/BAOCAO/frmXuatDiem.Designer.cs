@@ -35,6 +35,7 @@
             this.label2 = new System.Windows.Forms.Label();
             this.btnXuatExcel = new System.Windows.Forms.Button();
             this.label3 = new System.Windows.Forms.Label();
+            this.rbtXuat3 = new System.Windows.Forms.RadioButton();
             this.SuspendLayout();
             // 
             // label1
@@ -63,7 +64,7 @@
             // 
             this.rbtXuat2.AutoSize = true;
             this.rbtXuat2.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.rbtXuat2.Location = new System.Drawing.Point(53, 101);
+            this.rbtXuat2.Location = new System.Drawing.Point(53, 146);
             this.rbtXuat2.Name = "rbtXuat2";
             this.rbtXuat2.Size = new System.Drawing.Size(107, 23);
             this.rbtXuat2.TabIndex = 2;
@@ -75,7 +76,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(155, 103);
+            this.label2.Location = new System.Drawing.Point(155, 148);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(49, 19);
             this.label2.TabIndex = 3;
@@ -85,7 +86,7 @@
             // 
             this.btnXuatExcel.BackColor = System.Drawing.Color.PowderBlue;
             this.btnXuatExcel.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.btnXuatExcel.Location = new System.Drawing.Point(135, 142);
+            this.btnXuatExcel.Location = new System.Drawing.Point(135, 186);
             this.btnXuatExcel.Name = "btnXuatExcel";
             this.btnXuatExcel.Size = new System.Drawing.Size(98, 37);
             this.btnXuatExcel.TabIndex = 11;
@@ -104,11 +105,24 @@
             this.label3.Text = "label3";
             this.label3.UseMnemonic = false;
             // 
+            // rbtXuat3
+            // 
+            this.rbtXuat3.AutoSize = true;
+            this.rbtXuat3.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rbtXuat3.Location = new System.Drawing.Point(53, 107);
+            this.rbtXuat3.Name = "rbtXuat3";
+            this.rbtXuat3.Size = new System.Drawing.Size(148, 23);
+            this.rbtXuat3.TabIndex = 13;
+            this.rbtXuat3.TabStop = true;
+            this.rbtXuat3.Text = "Nhập điểm từ Excel";
+            this.rbtXuat3.UseVisualStyleBackColor = true;
+            // 
             // frmXuatDiem
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(360, 189);
+            this.ClientSize = new System.Drawing.Size(360, 235);
+            this.Controls.Add(this.rbtXuat3);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.btnXuatExcel);
             this.Controls.Add(this.label2);
@@ -133,5 +147,6 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Button btnXuatExcel;
         private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.RadioButton rbtXuat3;
     }
 }

@@ -33,7 +33,7 @@ namespace quanly_hocsinh_tieuhoc
         }
         private void ds_hocsinh_Load(object sender, EventArgs e)
         {
-            string ShowHS = "SELECT * FROM HOC_SINH where ma_lop = (select ma_lop from TAI_KHOAN where user_id= '" + user_id + "')";
+            string ShowHS = "SELECT * FROM HOC_SINH";
             DataTable dt = DatabaseService.DatabaseService.getDataTable(ShowHS);
             dtgvHocsinh.DataSource = dt;
         }
@@ -41,7 +41,7 @@ namespace quanly_hocsinh_tieuhoc
         {
             string sql = "SELECT * FROM HOC_SINH where ma_lop = (select ma_lop from TAI_KHOAN where  user_id= '" + user_id + "')";
             dtgvHocsinh.DataSource = DatabaseService.DatabaseService.getDataTable(sql);
-            MessageBox.Show("hello " + user_id);
+            
         }
         void cleartext()
         {

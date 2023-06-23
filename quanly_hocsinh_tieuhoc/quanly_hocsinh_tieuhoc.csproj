@@ -12,6 +12,22 @@
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <TargetFrameworkProfile />
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>E:\KLTN_DH9\Program QuanLyDiem\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>1</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -31,6 +47,18 @@
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>E71D688DD7DD4834D9FEEA974FE904DC360C9A7F</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>quanly_hocsinh_tieuhoc_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="ClosedXML, Version=0.95.3.0, Culture=neutral, processorArchitecture=MSIL">
@@ -148,6 +176,27 @@
     <Compile Include="BAOCAO\frmXuatNLPC.Designer.cs">
       <DependentUpon>frmXuatNLPC.cs</DependentUpon>
     </Compile>
+    <Compile Include="diemtest1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>diemtest1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dtsDiemCacMon.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dtsDiemCacMon.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="BAOCAO\frmBC_NLPC.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BAOCAO\frmBC_NLPC.Designer.cs">
+      <DependentUpon>frmBC_NLPC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HOCBA.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>HOCBA.xsd</DependentUpon>
+    </Compile>
     <Compile Include="HOCSINH\nanglucphamchat.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -171,6 +220,16 @@
     </Compile>
     <Compile Include="BAOCAO\nlpc.Designer.cs">
       <DependentUpon>nlpc.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NLPC_dataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>NLPC_dataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="QLHSTHDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>QLHSTHDataSet1.xsd</DependentUpon>
     </Compile>
     <Compile Include="SqlServerTypes\Loader.cs" />
     <Compile Include="THONGTIN\ds_lop.cs">
@@ -255,6 +314,9 @@
     <EmbeddedResource Include="BAOCAO\frmXuatNLPC.resx">
       <DependentUpon>frmXuatNLPC.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="BAOCAO\frmBC_NLPC.resx">
+      <DependentUpon>frmBC_NLPC.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="HOCSINH\nanglucphamchat.resx">
       <DependentUpon>nanglucphamchat.cs</DependentUpon>
     </EmbeddedResource>
@@ -268,6 +330,12 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
     <EmbeddedResource Include="rpBC_HS.rdlc">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rpBC_NLPC.rdlc">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rpHocBa.rdlc">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
     <EmbeddedResource Include="THONGTIN\ds_lop.resx">
@@ -307,6 +375,50 @@
     <EmbeddedResource Include="HOCSINH\timkiemhs.resx">
       <DependentUpon>timkiemhs.cs</DependentUpon>
     </EmbeddedResource>
+    <None Include="diemtest1.xsc">
+      <DependentUpon>diemtest1.xsd</DependentUpon>
+    </None>
+    <None Include="diemtest1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>diemtest1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="diemtest1.xss">
+      <DependentUpon>diemtest1.xsd</DependentUpon>
+    </None>
+    <None Include="dtsDiemCacMon.xsc">
+      <DependentUpon>dtsDiemCacMon.xsd</DependentUpon>
+    </None>
+    <None Include="dtsDiemCacMon.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dtsDiemCacMon.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dtsDiemCacMon.xss">
+      <DependentUpon>dtsDiemCacMon.xsd</DependentUpon>
+    </None>
+    <None Include="HOCBA.xsc">
+      <DependentUpon>HOCBA.xsd</DependentUpon>
+    </None>
+    <None Include="HOCBA.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>HOCBA.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="HOCBA.xss">
+      <DependentUpon>HOCBA.xsd</DependentUpon>
+    </None>
+    <None Include="NLPC_dataSet.xsc">
+      <DependentUpon>NLPC_dataSet.xsd</DependentUpon>
+    </None>
+    <None Include="NLPC_dataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>NLPC_dataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="NLPC_dataSet.xss">
+      <DependentUpon>NLPC_dataSet.xsd</DependentUpon>
+    </None>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -328,6 +440,18 @@
     <None Include="QLHSTHDataSet.xss">
       <DependentUpon>QLHSTHDataSet.xsd</DependentUpon>
     </None>
+    <None Include="QLHSTHDataSet1.xsc">
+      <DependentUpon>QLHSTHDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="QLHSTHDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>QLHSTHDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="QLHSTHDataSet1.xss">
+      <DependentUpon>QLHSTHDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="quanly_hocsinh_tieuhoc_TemporaryKey.pfx" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
@@ -420,6 +544,18 @@
     <Content Include="SqlServerTypes\x86\SqlServerSpatial140.dll">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.8">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.8 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

@@ -400,6 +400,7 @@
             this.btnLuuCSDL.TabIndex = 18;
             this.btnLuuCSDL.Text = "Lưu CSDL";
             this.btnLuuCSDL.UseVisualStyleBackColor = false;
+            this.btnLuuCSDL.Click += new System.EventHandler(this.btnLuuCSDL_Click);
             // 
             // btnNhapExcel
             // 
@@ -411,6 +412,7 @@
             this.btnNhapExcel.TabIndex = 17;
             this.btnNhapExcel.Text = "Nhập Excel";
             this.btnNhapExcel.UseVisualStyleBackColor = false;
+            this.btnNhapExcel.Click += new System.EventHandler(this.btnNhapExcel_Click);
             // 
             // btnXuatExcel
             // 

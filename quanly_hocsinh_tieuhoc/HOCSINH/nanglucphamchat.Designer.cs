@@ -29,6 +29,16 @@
         private void InitializeComponent()
         {
             this.dtgvNhapdiem = new System.Windows.Forms.DataGridView();
+            this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column6 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column7 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column8 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column9 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.diem_cuoi_ki = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
@@ -46,7 +56,9 @@
             this.cmdThoat = new System.Windows.Forms.Button();
             this.cmdXemdiem = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.btnNhapExcel = new System.Windows.Forms.Button();
             this.cmdSua = new System.Windows.Forms.Button();
+            this.btnXuatExcel = new System.Windows.Forms.Button();
             this.cbNamHoc = new System.Windows.Forms.ComboBox();
             this.cbMonHoc = new System.Windows.Forms.ComboBox();
             this.txtMonhoc = new System.Windows.Forms.TextBox();
@@ -56,19 +68,6 @@
             this.txtDiem2 = new System.Windows.Forms.ComboBox();
             this.txtDiemtb = new System.Windows.Forms.TextBox();
             this.label10 = new System.Windows.Forms.Label();
-            this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column6 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column7 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column8 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column9 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.diem_cuoi_ki = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.btnLuuCSDL = new System.Windows.Forms.Button();
-            this.btnNhapExcel = new System.Windows.Forms.Button();
-            this.btnXuatExcel = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dtgvNhapdiem)).BeginInit();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
@@ -93,6 +92,76 @@
             this.dtgvNhapdiem.Size = new System.Drawing.Size(1067, 427);
             this.dtgvNhapdiem.TabIndex = 11111;
             this.dtgvNhapdiem.CellMouseClick += new System.Windows.Forms.DataGridViewCellMouseEventHandler(this.dtgvNhapdiem_CellMouseClick);
+            // 
+            // Column1
+            // 
+            this.Column1.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.Column1.DataPropertyName = "ma_diem_nlpc";
+            this.Column1.HeaderText = "Mã NLPC";
+            this.Column1.Name = "Column1";
+            // 
+            // Column2
+            // 
+            this.Column2.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.Column2.DataPropertyName = "ten_lop";
+            this.Column2.HeaderText = "Tên lớp";
+            this.Column2.Name = "Column2";
+            // 
+            // Column3
+            // 
+            this.Column3.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.Column3.DataPropertyName = "ma_hoc_sinh";
+            this.Column3.HeaderText = "Mã học sinh";
+            this.Column3.Name = "Column3";
+            // 
+            // Column4
+            // 
+            this.Column4.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.Column4.DataPropertyName = "ho_ten";
+            this.Column4.HeaderText = "Họ tên";
+            this.Column4.Name = "Column4";
+            // 
+            // Column5
+            // 
+            this.Column5.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.Column5.DataPropertyName = "ma_mon_hoc";
+            this.Column5.HeaderText = "Mã môn học";
+            this.Column5.Name = "Column5";
+            // 
+            // Column6
+            // 
+            this.Column6.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.Column6.DataPropertyName = "mon_hoc";
+            this.Column6.HeaderText = "Môn học";
+            this.Column6.Name = "Column6";
+            // 
+            // Column7
+            // 
+            this.Column7.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.Column7.DataPropertyName = "nam_hoc";
+            this.Column7.HeaderText = "Năm học";
+            this.Column7.Name = "Column7";
+            // 
+            // Column8
+            // 
+            this.Column8.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.Column8.DataPropertyName = "diem_hk1";
+            this.Column8.HeaderText = "Học Kì 1";
+            this.Column8.Name = "Column8";
+            // 
+            // Column9
+            // 
+            this.Column9.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.Column9.DataPropertyName = "diem_hk2";
+            this.Column9.HeaderText = "Học Kì 2";
+            this.Column9.Name = "Column9";
+            // 
+            // diem_cuoi_ki
+            // 
+            this.diem_cuoi_ki.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.diem_cuoi_ki.DataPropertyName = "diem_cuoi_ki";
+            this.diem_cuoi_ki.HeaderText = "Điểm cuối kì";
+            this.diem_cuoi_ki.Name = "diem_cuoi_ki";
             // 
             // label1
             // 
@@ -205,7 +274,7 @@
             // 
             this.cmdThem.BackColor = System.Drawing.Color.PowderBlue;
             this.cmdThem.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.cmdThem.Location = new System.Drawing.Point(6, 145);
+            this.cmdThem.Location = new System.Drawing.Point(75, 145);
             this.cmdThem.Name = "cmdThem";
             this.cmdThem.Size = new System.Drawing.Size(98, 37);
             this.cmdThem.TabIndex = 10;
@@ -217,7 +286,7 @@
             // 
             this.cmdXoa.BackColor = System.Drawing.Color.PowderBlue;
             this.cmdXoa.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.cmdXoa.Location = new System.Drawing.Point(120, 144);
+            this.cmdXoa.Location = new System.Drawing.Point(189, 144);
             this.cmdXoa.Name = "cmdXoa";
             this.cmdXoa.Size = new System.Drawing.Size(98, 37);
             this.cmdXoa.TabIndex = 12;
@@ -229,7 +298,7 @@
             // 
             this.cmdClear.BackColor = System.Drawing.Color.PowderBlue;
             this.cmdClear.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.cmdClear.Location = new System.Drawing.Point(6, 101);
+            this.cmdClear.Location = new System.Drawing.Point(75, 101);
             this.cmdClear.Name = "cmdClear";
             this.cmdClear.Size = new System.Drawing.Size(98, 37);
             this.cmdClear.TabIndex = 13;
@@ -241,7 +310,7 @@
             // 
             this.cmdThoat.BackColor = System.Drawing.Color.PowderBlue;
             this.cmdThoat.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.cmdThoat.Location = new System.Drawing.Point(120, 101);
+            this.cmdThoat.Location = new System.Drawing.Point(189, 101);
             this.cmdThoat.Name = "cmdThoat";
             this.cmdThoat.Size = new System.Drawing.Size(98, 37);
             this.cmdThoat.TabIndex = 14;
@@ -254,7 +323,7 @@
             this.cmdXemdiem.BackColor = System.Drawing.Color.PowderBlue;
             this.cmdXemdiem.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cmdXemdiem.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.cmdXemdiem.Location = new System.Drawing.Point(6, 21);
+            this.cmdXemdiem.Location = new System.Drawing.Point(75, 21);
             this.cmdXemdiem.Name = "cmdXemdiem";
             this.cmdXemdiem.Size = new System.Drawing.Size(212, 60);
             this.cmdXemdiem.TabIndex = 15;
@@ -264,7 +333,6 @@
             // 
             // groupBox1
             // 
-            this.groupBox1.Controls.Add(this.btnLuuCSDL);
             this.groupBox1.Controls.Add(this.cmdThem);
             this.groupBox1.Controls.Add(this.btnNhapExcel);
             this.groupBox1.Controls.Add(this.cmdSua);
@@ -280,17 +348,41 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Hành động";
             // 
+            // btnNhapExcel
+            // 
+            this.btnNhapExcel.BackColor = System.Drawing.Color.PowderBlue;
+            this.btnNhapExcel.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.btnNhapExcel.Location = new System.Drawing.Point(310, 124);
+            this.btnNhapExcel.Name = "btnNhapExcel";
+            this.btnNhapExcel.Size = new System.Drawing.Size(98, 35);
+            this.btnNhapExcel.TabIndex = 17;
+            this.btnNhapExcel.Text = "Nhập Excel";
+            this.btnNhapExcel.UseVisualStyleBackColor = false;
+            this.btnNhapExcel.Click += new System.EventHandler(this.btnNhapExcel_Click);
+            // 
             // cmdSua
             // 
             this.cmdSua.BackColor = System.Drawing.Color.PowderBlue;
             this.cmdSua.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.cmdSua.Location = new System.Drawing.Point(241, 21);
+            this.cmdSua.Location = new System.Drawing.Point(310, 21);
             this.cmdSua.Name = "cmdSua";
             this.cmdSua.Size = new System.Drawing.Size(98, 37);
             this.cmdSua.TabIndex = 11;
             this.cmdSua.Text = "Sửa";
             this.cmdSua.UseVisualStyleBackColor = false;
             this.cmdSua.Click += new System.EventHandler(this.cmdSua_Click);
+            // 
+            // btnXuatExcel
+            // 
+            this.btnXuatExcel.BackColor = System.Drawing.Color.PowderBlue;
+            this.btnXuatExcel.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.btnXuatExcel.Location = new System.Drawing.Point(310, 73);
+            this.btnXuatExcel.Name = "btnXuatExcel";
+            this.btnXuatExcel.Size = new System.Drawing.Size(98, 35);
+            this.btnXuatExcel.TabIndex = 16;
+            this.btnXuatExcel.Text = "Xuất Excel";
+            this.btnXuatExcel.UseVisualStyleBackColor = false;
+            this.btnXuatExcel.Click += new System.EventHandler(this.btnXuatExcel_Click);
             // 
             // cbNamHoc
             // 
@@ -336,6 +428,7 @@
             this.txtTenlop.Name = "txtTenlop";
             this.txtTenlop.Size = new System.Drawing.Size(161, 24);
             this.txtTenlop.TabIndex = 11117;
+            this.txtTenlop.SelectedIndexChanged += new System.EventHandler(this.txtTenlop_SelectedIndexChanged);
             // 
             // txtDiem1
             // 
@@ -379,110 +472,6 @@
             this.label10.Size = new System.Drawing.Size(67, 17);
             this.label10.TabIndex = 11122;
             this.label10.Text = "Cuối năm";
-            // 
-            // Column1
-            // 
-            this.Column1.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.Column1.DataPropertyName = "ma_diem_nlpc";
-            this.Column1.HeaderText = "Mã NLPC";
-            this.Column1.Name = "Column1";
-            // 
-            // Column2
-            // 
-            this.Column2.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.Column2.DataPropertyName = "ten_lop";
-            this.Column2.HeaderText = "Tên lớp";
-            this.Column2.Name = "Column2";
-            // 
-            // Column3
-            // 
-            this.Column3.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.Column3.DataPropertyName = "ma_hoc_sinh";
-            this.Column3.HeaderText = "Mã học sinh";
-            this.Column3.Name = "Column3";
-            // 
-            // Column4
-            // 
-            this.Column4.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.Column4.DataPropertyName = "ho_ten";
-            this.Column4.HeaderText = "Họ tên";
-            this.Column4.Name = "Column4";
-            // 
-            // Column5
-            // 
-            this.Column5.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.Column5.DataPropertyName = "ma_mon_hoc";
-            this.Column5.HeaderText = "Mã môn học";
-            this.Column5.Name = "Column5";
-            // 
-            // Column6
-            // 
-            this.Column6.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.Column6.DataPropertyName = "mon_hoc";
-            this.Column6.HeaderText = "Môn học";
-            this.Column6.Name = "Column6";
-            // 
-            // Column7
-            // 
-            this.Column7.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.Column7.DataPropertyName = "nam_hoc";
-            this.Column7.HeaderText = "Năm học";
-            this.Column7.Name = "Column7";
-            // 
-            // Column8
-            // 
-            this.Column8.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.Column8.DataPropertyName = "diem_hk1";
-            this.Column8.HeaderText = "Học Kì 1";
-            this.Column8.Name = "Column8";
-            // 
-            // Column9
-            // 
-            this.Column9.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.Column9.DataPropertyName = "diem_hk2";
-            this.Column9.HeaderText = "Học Kì 2";
-            this.Column9.Name = "Column9";
-            // 
-            // diem_cuoi_ki
-            // 
-            this.diem_cuoi_ki.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.diem_cuoi_ki.DataPropertyName = "diem_cuoi_ki";
-            this.diem_cuoi_ki.HeaderText = "Điểm cuối kì";
-            this.diem_cuoi_ki.Name = "diem_cuoi_ki";
-            // 
-            // btnLuuCSDL
-            // 
-            this.btnLuuCSDL.BackColor = System.Drawing.Color.PowderBlue;
-            this.btnLuuCSDL.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.btnLuuCSDL.Location = new System.Drawing.Point(358, 123);
-            this.btnLuuCSDL.Name = "btnLuuCSDL";
-            this.btnLuuCSDL.Size = new System.Drawing.Size(93, 35);
-            this.btnLuuCSDL.TabIndex = 18;
-            this.btnLuuCSDL.Text = "Lưu CSDL";
-            this.btnLuuCSDL.UseVisualStyleBackColor = false;
-            // 
-            // btnNhapExcel
-            // 
-            this.btnNhapExcel.BackColor = System.Drawing.Color.PowderBlue;
-            this.btnNhapExcel.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.btnNhapExcel.Location = new System.Drawing.Point(358, 72);
-            this.btnNhapExcel.Name = "btnNhapExcel";
-            this.btnNhapExcel.Size = new System.Drawing.Size(93, 35);
-            this.btnNhapExcel.TabIndex = 17;
-            this.btnNhapExcel.Text = "Nhập Excel";
-            this.btnNhapExcel.UseVisualStyleBackColor = false;
-            // 
-            // btnXuatExcel
-            // 
-            this.btnXuatExcel.BackColor = System.Drawing.Color.PowderBlue;
-            this.btnXuatExcel.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.btnXuatExcel.Location = new System.Drawing.Point(358, 21);
-            this.btnXuatExcel.Name = "btnXuatExcel";
-            this.btnXuatExcel.Size = new System.Drawing.Size(93, 35);
-            this.btnXuatExcel.TabIndex = 16;
-            this.btnXuatExcel.Text = "Xuất Excel";
-            this.btnXuatExcel.UseVisualStyleBackColor = false;
-            this.btnXuatExcel.Click += new System.EventHandler(this.btnXuatExcel_Click);
             // 
             // nanglucphamchat
             // 
@@ -572,7 +561,6 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn Column8;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column9;
         private System.Windows.Forms.DataGridViewTextBoxColumn diem_cuoi_ki;
-        private System.Windows.Forms.Button btnLuuCSDL;
         private System.Windows.Forms.Button btnNhapExcel;
         private System.Windows.Forms.Button btnXuatExcel;
     }

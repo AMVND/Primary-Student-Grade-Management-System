@@ -31,6 +31,8 @@
             this.label1 = new System.Windows.Forms.Label();
             this.txtHoten = new System.Windows.Forms.TextBox();
             this.dtgvTimkiem = new System.Windows.Forms.DataGridView();
+            this.label4 = new System.Windows.Forms.Label();
+            this.cbLop = new System.Windows.Forms.ComboBox();
             this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column16 = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -43,12 +45,8 @@
             this.Column9 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column10 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column11 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column12 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column13 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column14 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column15 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.label4 = new System.Windows.Forms.Label();
-            this.cbLop = new System.Windows.Forms.ComboBox();
             ((System.ComponentModel.ISupportInitialize)(this.dtgvTimkiem)).BeginInit();
             this.SuspendLayout();
             // 
@@ -85,14 +83,30 @@
             this.Column9,
             this.Column10,
             this.Column11,
-            this.Column12,
             this.Column13,
-            this.Column14,
-            this.Column15});
+            this.Column14});
             this.dtgvTimkiem.Location = new System.Drawing.Point(14, 58);
             this.dtgvTimkiem.Name = "dtgvTimkiem";
             this.dtgvTimkiem.Size = new System.Drawing.Size(634, 349);
             this.dtgvTimkiem.TabIndex = 2;
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(17, 24);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(52, 13);
+            this.label4.TabIndex = 8;
+            this.label4.Text = "Lớp học :";
+            // 
+            // cbLop
+            // 
+            this.cbLop.FormattingEnabled = true;
+            this.cbLop.Location = new System.Drawing.Point(83, 21);
+            this.cbLop.Name = "cbLop";
+            this.cbLop.Size = new System.Drawing.Size(101, 21);
+            this.cbLop.TabIndex = 7;
+            this.cbLop.SelectedIndexChanged += new System.EventHandler(this.cbLop_SelectedIndexChanged);
             // 
             // Column1
             // 
@@ -166,12 +180,6 @@
             this.Column11.HeaderText = "Nghề nghiệp";
             this.Column11.Name = "Column11";
             // 
-            // Column12
-            // 
-            this.Column12.DataPropertyName = "noi_lam_viec_cha";
-            this.Column12.HeaderText = "Nơi làm việc";
-            this.Column12.Name = "Column12";
-            // 
             // Column13
             // 
             this.Column13.DataPropertyName = "ten_me";
@@ -183,30 +191,6 @@
             this.Column14.DataPropertyName = "nghe_nghiep_me";
             this.Column14.HeaderText = "Nghề nghiệp";
             this.Column14.Name = "Column14";
-            // 
-            // Column15
-            // 
-            this.Column15.DataPropertyName = "noi_lam_viec_me";
-            this.Column15.HeaderText = "Nơi làm việc";
-            this.Column15.Name = "Column15";
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(17, 24);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(52, 13);
-            this.label4.TabIndex = 8;
-            this.label4.Text = "Lớp học :";
-            // 
-            // cbLop
-            // 
-            this.cbLop.FormattingEnabled = true;
-            this.cbLop.Location = new System.Drawing.Point(83, 21);
-            this.cbLop.Name = "cbLop";
-            this.cbLop.Size = new System.Drawing.Size(101, 21);
-            this.cbLop.TabIndex = 7;
-            this.cbLop.SelectedIndexChanged += new System.EventHandler(this.cbLop_SelectedIndexChanged);
             // 
             // timkiemhs
             // 
@@ -238,6 +222,8 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox txtHoten;
         private System.Windows.Forms.DataGridView dtgvTimkiem;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.ComboBox cbLop;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column1;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column2;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column16;
@@ -250,11 +236,7 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn Column9;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column10;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column11;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column12;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column13;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column14;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column15;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.ComboBox cbLop;
     }
 }

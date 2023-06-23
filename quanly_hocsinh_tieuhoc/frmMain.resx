@@ -118,17 +118,6 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="btnDangXuat.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
-        EAAACxABrSO9dQAAATNJREFUSEvtlzFqAkEUhheMtrlEiohYSNoUNjY5QqpUnsEjBCxCqpAUqbRQsLHS
-        MoEErDyFEAvJETbfyzxxGWfWWRjWZj/48Dk+378su8tOkkeaphfYwzfcYkd/ig/Da3iLz/iDWbraFgcG
-        NvAO33GHPrrYxJsTXupoPzS94i+GIMFrU+Yy1PF+tDGU0OAnHe9HG0Opgn1UwcdoYyiFg6nlvn/Eui4Z
-        pKsAhYL5vMb902+Gh3CzFowr+AOnlg86+x6zHMLNdy8LlMF77OARtrGf4wqzmHBTO5ljC6/wSxbADh7g
-        iykLMQkN/pYFKCVYWOKnKf+xg8cY/VS7cF1ccmDRLy4bV7CLUm4nF+d9gOSijaFUwT6q4GNoOs/rrUBj
-        +S/0NvypvC2MD4Kym7YNRtq0JckfLSrN/Vm4cuoAAAAASUVORK5CYII=
-</value>
-  </data>
   <data name="pictureBox1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
@@ -188,6 +177,17 @@
         qyozOphBm66zZgzlyHU69ZxIBssWZss2ylnuduo5kQwe1XVGNvBRDxVyGskZvq4q7/gObkV5gAZxAeV1
         GkG/+A9WPwDGcqWyAHmKU9+CTIYSk/gO/hOY0M9WL+thTjxhsBDBQrQQwfJHFIlveJH/JhD4AQs8qxIX
         tu9pAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="btnDangXuat.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
+        DgAACw4BQL7hQQAAATNJREFUSEvtlzFqAkEUhheMtrlEiohYSNoUNjY5QqpUnsEjBCxCqpAUqbRQsLHS
+        MoEErDyFEAvJETbfyzxxGWfWWRjWZj/48Dk+378su8tOkkeaphfYwzfcYkd/ig/Da3iLz/iDWbraFgcG
+        NvAO33GHPrrYxJsTXupoPzS94i+GIMFrU+Yy1PF+tDGU0OAnHe9HG0Opgn1UwcdoYyiFg6nlvn/Eui4Z
+        pKsAhYL5vMb902+Gh3CzFowr+AOnlg86+x6zHMLNdy8LlMF77OARtrGf4wqzmHBTO5ljC6/wSxbADh7g
+        iykLMQkN/pYFKCVYWOKnKf+xg8cY/VS7cF1ccmDRLy4bV7CLUm4nF+d9gOSijaFUwT6q4GNoOs/rrUBj
+        +S/0NvypvC2MD4Kym7YNRtq0JckfLSrN/Vm4cuoAAAAASUVORK5CYII=
 </value>
   </data>
   <metadata name="timerHocSinh.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">

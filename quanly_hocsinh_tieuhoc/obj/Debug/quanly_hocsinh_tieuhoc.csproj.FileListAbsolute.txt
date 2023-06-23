@@ -134,3 +134,10 @@ E:\KLTN_DH9\thamkhao\quanly_hocsinh_tieuhoc\quanly_hocsinh_tieuhoc\bin\Debug\rpB
 E:\KLTN_DH9\thamkhao\quanly_hocsinh_tieuhoc\quanly_hocsinh_tieuhoc\bin\Debug\rpBC_Diem.rdlc
 E:\KLTN_DH9\thamkhao\quanly_hocsinh_tieuhoc\quanly_hocsinh_tieuhoc\obj\Debug\quanly_hocsinh_tieuhoc.frmXuatDiem.resources
 E:\KLTN_DH9\thamkhao\quanly_hocsinh_tieuhoc\quanly_hocsinh_tieuhoc\obj\Debug\quanly_hocsinh_tieuhoc.frmXuatNLPC.resources
+E:\KLTN_DH9\thamkhao\quanly_hocsinh_tieuhoc\quanly_hocsinh_tieuhoc\obj\Debug\quanly_hocsinh_tieuhoc.frmBC_NLPC.resources
+E:\KLTN_DH9\thamkhao\quanly_hocsinh_tieuhoc\quanly_hocsinh_tieuhoc\bin\Debug\rpBC_NLPC.rdlc
+E:\KLTN_DH9\thamkhao\quanly_hocsinh_tieuhoc\quanly_hocsinh_tieuhoc\bin\Debug\rpHocBa.rdlc
+E:\KLTN_DH9\thamkhao\quanly_hocsinh_tieuhoc\quanly_hocsinh_tieuhoc\bin\Debug\quanly_hocsinh_tieuhoc.exe.manifest
+E:\KLTN_DH9\thamkhao\quanly_hocsinh_tieuhoc\quanly_hocsinh_tieuhoc\bin\Debug\quanly_hocsinh_tieuhoc.application
+E:\KLTN_DH9\thamkhao\quanly_hocsinh_tieuhoc\quanly_hocsinh_tieuhoc\obj\Debug\quanly_hocsinh_tieuhoc.exe.manifest
+E:\KLTN_DH9\thamkhao\quanly_hocsinh_tieuhoc\quanly_hocsinh_tieuhoc\obj\Debug\quanly_hocsinh_tieuhoc.application

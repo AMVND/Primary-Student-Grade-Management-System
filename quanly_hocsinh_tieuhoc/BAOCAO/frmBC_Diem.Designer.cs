@@ -29,21 +29,25 @@
         private void InitializeComponent()
         {
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.label4 = new System.Windows.Forms.Label();
+            this.cbMonHoc = new System.Windows.Forms.ComboBox();
+            this.label3 = new System.Windows.Forms.Label();
+            this.txtGVCN = new System.Windows.Forms.TextBox();
+            this.label2 = new System.Windows.Forms.Label();
+            this.cbNamHoc = new System.Windows.Forms.ComboBox();
             this.label1 = new System.Windows.Forms.Label();
             this.cbLop = new System.Windows.Forms.ComboBox();
             this.btnBaoCao = new System.Windows.Forms.Button();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.rpvBaoCao = new Microsoft.Reporting.WinForms.ReportViewer();
-            this.label2 = new System.Windows.Forms.Label();
-            this.cbNamHoc = new System.Windows.Forms.ComboBox();
-            this.txtGVCN = new System.Windows.Forms.TextBox();
-            this.label3 = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.SuspendLayout();
             // 
             // groupBox1
             // 
+            this.groupBox1.Controls.Add(this.label4);
+            this.groupBox1.Controls.Add(this.cbMonHoc);
             this.groupBox1.Controls.Add(this.label3);
             this.groupBox1.Controls.Add(this.txtGVCN);
             this.groupBox1.Controls.Add(this.label2);
@@ -57,6 +61,59 @@
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Hành động";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label4.Location = new System.Drawing.Point(265, 59);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(55, 13);
+            this.label4.TabIndex = 36;
+            this.label4.Text = "Môn học: ";
+            // 
+            // cbMonHoc
+            // 
+            this.cbMonHoc.FormattingEnabled = true;
+            this.cbMonHoc.Location = new System.Drawing.Point(327, 59);
+            this.cbMonHoc.Name = "cbMonHoc";
+            this.cbMonHoc.Size = new System.Drawing.Size(163, 21);
+            this.cbMonHoc.TabIndex = 35;
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label3.Location = new System.Drawing.Point(265, 24);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(58, 13);
+            this.label3.TabIndex = 34;
+            this.label3.Text = "Giáo viên: ";
+            // 
+            // txtGVCN
+            // 
+            this.txtGVCN.Location = new System.Drawing.Point(327, 21);
+            this.txtGVCN.Name = "txtGVCN";
+            this.txtGVCN.Size = new System.Drawing.Size(163, 20);
+            this.txtGVCN.TabIndex = 33;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label2.Location = new System.Drawing.Point(19, 24);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(56, 13);
+            this.label2.TabIndex = 32;
+            this.label2.Text = "Năm học: ";
+            // 
+            // cbNamHoc
+            // 
+            this.cbNamHoc.FormattingEnabled = true;
+            this.cbNamHoc.Location = new System.Drawing.Point(88, 21);
+            this.cbNamHoc.Name = "cbNamHoc";
+            this.cbNamHoc.Size = new System.Drawing.Size(121, 21);
+            this.cbNamHoc.TabIndex = 31;
             // 
             // label1
             // 
@@ -81,7 +138,7 @@
             // 
             this.btnBaoCao.BackColor = System.Drawing.Color.PowderBlue;
             this.btnBaoCao.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.btnBaoCao.Location = new System.Drawing.Point(535, 34);
+            this.btnBaoCao.Location = new System.Drawing.Point(560, 34);
             this.btnBaoCao.Margin = new System.Windows.Forms.Padding(4);
             this.btnBaoCao.Name = "btnBaoCao";
             this.btnBaoCao.Size = new System.Drawing.Size(85, 38);
@@ -108,41 +165,6 @@
             this.rpvBaoCao.ServerReport.BearerToken = null;
             this.rpvBaoCao.Size = new System.Drawing.Size(1066, 517);
             this.rpvBaoCao.TabIndex = 0;
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label2.Location = new System.Drawing.Point(19, 24);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(56, 13);
-            this.label2.TabIndex = 32;
-            this.label2.Text = "Năm học: ";
-            // 
-            // cbNamHoc
-            // 
-            this.cbNamHoc.FormattingEnabled = true;
-            this.cbNamHoc.Location = new System.Drawing.Point(88, 21);
-            this.cbNamHoc.Name = "cbNamHoc";
-            this.cbNamHoc.Size = new System.Drawing.Size(121, 21);
-            this.cbNamHoc.TabIndex = 31;
-            // 
-            // txtGVCN
-            // 
-            this.txtGVCN.Location = new System.Drawing.Point(327, 21);
-            this.txtGVCN.Name = "txtGVCN";
-            this.txtGVCN.Size = new System.Drawing.Size(163, 20);
-            this.txtGVCN.TabIndex = 33;
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label3.Location = new System.Drawing.Point(265, 24);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(58, 13);
-            this.label3.TabIndex = 34;
-            this.label3.Text = "Giáo viên: ";
             // 
             // frmBC_Diem
             // 
@@ -175,5 +197,7 @@
         private System.Windows.Forms.ComboBox cbNamHoc;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.TextBox txtGVCN;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.ComboBox cbMonHoc;
     }
 }
